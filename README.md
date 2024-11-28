@@ -22,3 +22,12 @@ The `dzunni::RandomWeightedObjectGenerator` class is a lightweight container and
 6. `probability()` - returns the probability of the element.
 ### Others
 1. `vector<E> sample(size_t amount)` - returns `std::vector` of elements as a sample.
+
+## Aliases
+1. `Rwog_i` (int)
+2. `Rwog_f` (float)
+3. `Rwog_c` (char)
+4. `Rwog_d` (double)
+5. `Rwog_u` (unsigned int)
+6. `Rwog_l` (long)
+7. `RwogString` (string)
