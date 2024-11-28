@@ -1,5 +1,5 @@
 # RWOG
-The `dzunni::RandomWeightedObjectGenerator` class is a container and a random object generator class that contains unique elements of type `E` and each element has a weight. `E` must have the requirements for `std::set`. The weight is an unsigned integer that determines each element's probability which equals to _the element's weight divided by the total weight of all elements_. The class uses `mt19937` engine from C++ standard library for randomness. The class needs a seed for the randomizer through its constructor. You can set a new seed by calling `seed()`.
+The `dzunni::RandomWeightedObjectGenerator` class is a lightweight container and a random object generator class that contains unique elements of type `E` and each element has a weight. `E` must have the requirements for `std::set`. The weight is an unsigned integer that determines each element's probability which equals to _the element's weight divided by the total weight of all elements_. The class uses `mt19937` engine from C++ standard library for randomness. The class needs a seed for the randomizer through its constructor. You can set a new seed by calling `seed()`.
 
 ## Constructors
 1. `RandomWeightedObjectGenerator(uint seed)` - initializes with a seed for the RNG.
